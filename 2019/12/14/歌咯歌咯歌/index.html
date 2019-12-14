@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+<title>歌咯歌咯歌 | M0KEE&#39;s Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">M0KEE&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">M0KEE&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">歌咯歌咯歌</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">M0KEE</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">2019-12-14&nbsp;&nbsp;16:13:21</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Life/">Life</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p><strong>排名不分先后</strong>哒，有些想不起来了，再听到了就再来记上。对了，归到歌手里面的，他们的单曲我就看情况记了。</p>
+<h1 id="专辑-歌单"><a href="#专辑-歌单" class="headerlink" title="专辑/歌单"></a>专辑/歌单</h1><p>专辑听得最多，所以专辑列表第一，嘿嘿。未进行特别标注的话，下列专辑均在apple music能够搜索到</p>
+<table>
+<thead>
+<tr>
+<th align="center">专辑名/歌单名</th>
+<th align="center">歌手</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1212</td>
+<td align="center">袁娅维</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">寻人启事</td>
+<td align="center">徐佳莹</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">心理学</td>
+<td align="center">徐佳莹</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">希游记</td>
+<td align="center">孙盛希</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Human Bloom</td>
+<td align="center">RADWIMPS</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">无病呻吟有情抒情</td>
+<td align="center">leo王</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">LOVELY SUNDAY</td>
+<td align="center">椅子乐团</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">C’mon in~</td>
+<td align="center">陈奕迅</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">卡通人物</td>
+<td align="center">茄子蛋</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">路过人间</td>
+<td align="center">郁可唯</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">JTW 西游记</td>
+<td align="center">方大同</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Flamingo/TEENAGE RIOT-Single</td>
+<td align="center">米津玄师</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">VIVID</td>
+<td align="center">ADOY</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">原色</td>
+<td align="center">杨宗纬</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">This is Acting</td>
+<td align="center">Sia</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Nothing is under Control</td>
+<td align="center">岑宁儿</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">浪潮上岸</td>
+<td align="center">橘子海</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">HYUKOU</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">如果你喜欢 Rihanna</td>
+<td align="center">Apple music</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">夏日不插电</td>
+<td align="center">Apple music</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">我要给世界最悠长的湿吻</td>
+<td align="center">蔡健雅</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">离心力</td>
+<td align="center">杨乃文</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h1><table>
+<thead>
+<tr>
+<th align="center">单曲名</th>
+<th align="center">歌手</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Your Shampoo Scent in the Flowers</td>
+<td align="center">张凡俊</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Fake</td>
+<td align="center">柳升佑</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Moonlight</td>
+<td align="center">Ha Hyunsang</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">失落沙洲</td>
+<td align="center">徐佳莹</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">玫瑰少年</td>
+<td align="center">蔡依林</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">怪美的</td>
+<td align="center">蔡依林</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Four Seasons</td>
+<td align="center">太妍</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">末班车</td>
+<td align="center">萧煌奇</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Cranberry &amp; Pancake</td>
+<td align="center">米津玄师</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Loser</td>
+<td align="center">米津玄师</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">其实都没有</td>
+<td align="center">杨宗纬</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Dream a Little Dream of Me</td>
+<td align="center">Michael Bublé</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Royals</td>
+<td align="center">Lorde</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">我们的总和</td>
+<td align="center">艾怡良</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">慢慢喜欢你</td>
+<td align="center">莫文蔚</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">双栖动物</td>
+<td align="center">蔡健雅</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">一生所爱</td>
+<td align="center">卢冠廷</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">崂山道士</td>
+<td align="center">马思唯</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Utai IV: Reawakening</td>
+<td align="center">川井宪次</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="歌手"><a href="#歌手" class="headerlink" title="歌手"></a>歌手</h1><p>你可以把这些歌手所有的歌随机放起来，问题都不是很大</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">陈奕迅</td>
+<td align="center">郁可唯</td>
+<td align="center">方大同</td>
+<td align="center">IU</td>
+<td align="center">杨宗纬</td>
+</tr>
+<tr>
+<td align="center">袁娅维</td>
+<td align="center">岑宁儿</td>
+<td align="center">HYUKOU</td>
+<td align="center">徐佳莹</td>
+<td align="center">钟兴民</td>
+</tr>
+<tr>
+<td align="center">好妹妹</td>
+<td align="center">Sia</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>M0KEE</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="http://M0KEE.github.io/2019/12/14/歌咯歌咯歌/">http://M0KEE.github.io/2019/12/14/歌咯歌咯歌/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/憨憨/"># 憨憨</a>
+                    
+                        <a href="/tags/music/"># music</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2019/10/09/Computer-Networking/">Computer Networking</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© M0KEE | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
